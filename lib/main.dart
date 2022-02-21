@@ -1,9 +1,14 @@
-import 'package:administrator/helpers/app_constants.dart';
-import 'package:administrator/ui/views/main_view.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'helpers/app_configure.dart'
+    if (dart.library.html) 'helpers/app_configure_web.dart';
+import 'helpers/app_constants.dart';
+import 'ui/views/main_view.dart';
+
 void main() {
+  configureApp();
+
   runApp(const MyApp());
 }
 
