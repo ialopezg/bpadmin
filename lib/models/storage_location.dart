@@ -25,7 +25,7 @@ List locations = [
     image: 'assets/icons/documents.svg',
     capacity: '20.0 GB',
     files: 132803,
-    percentageUsed: 35,
+    percentageUsed: 35.0,
   ),
   StorageLocation(
     'Google Drive',

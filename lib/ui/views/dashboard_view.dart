@@ -1,4 +1,6 @@
 import 'package:administrator/helpers/app_constants.dart';
+import 'package:administrator/ui/components/files/my_files.dart';
+import 'package:administrator/ui/components/files/recent_files.dart';
 import 'package:administrator/ui/components/header.dart';
 import 'package:administrator/ui/components/storage/content_sidebar.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +21,13 @@ class DashboardView extends StatelessWidget {
                 children: <Widget>[
                   Expanded(
                     flex: 5,
-                    child: Container(height: 500, color: Colors.white),
+                    child: Column(
+                      children: const <Widget>[
+                        MyFiles(),
+                        SizedBox(height: defaultPadding),
+                        RecentFiles(),
+                      ],
+                    ),
                   ),
                   const SizedBox(width: defaultPadding),
                   const Expanded(flex: 2, child: ContentSidebar()),

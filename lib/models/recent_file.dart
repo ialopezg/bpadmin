@@ -12,24 +12,24 @@ class RecentFile {
   final String size;
 }
 
-List demoRecentFiles = [
+List recentFiles = [
   RecentFile(
     'XD File',
     icon: 'assets/icons/xd_file.svg',
     date: '01-03-2021',
-    size: '3.5 MB',
+    size: '3.5MB',
   ),
   RecentFile(
     'Figma File',
     icon: 'assets/icons/figma_file.svg',
     date: '27-02-2021',
-    size: '19.0 MB',
+    size: '19.0MB',
   ),
   RecentFile(
     'Document File',
     icon: 'assets/icons/doc_file.svg',
     date: '23-02-2021',
-    size: '32.5 MB',
+    size: '32.5MB',
   ),
   RecentFile(
     'Sound File',

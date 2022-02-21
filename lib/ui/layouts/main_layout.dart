@@ -2,8 +2,8 @@ import 'package:administrator/ui/components/sidebar/sidebar.dart';
 import 'package:administrator/ui/views/dashboard_view.dart';
 import 'package:flutter/material.dart';
 
-class MainView extends StatelessWidget {
-  const MainView({Key? key}) : super(key: key);
+class MainLayout extends StatelessWidget {
+  const MainLayout({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) => Scaffold(

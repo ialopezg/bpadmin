@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'helpers/app_configure.dart'
     if (dart.library.html) 'helpers/app_configure_web.dart';
 import 'helpers/app_constants.dart';
-import 'ui/views/main_view.dart';
+import 'ui/layouts/main_layout.dart';
 
 void main() {
   configureApp();
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             .apply(bodyColor: Colors.white),
         canvasColor: secondaryColor,
       ),
-      home: const MainView(),
+      home: const MainLayout(),
     );
   }
 }
