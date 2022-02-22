@@ -31,8 +31,29 @@
 
   <title>Administrator</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Styling for loading indicator -->
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #212332;
+    }
+
+    .indicator {
+      width: 10vw;
+    }
+  </style>
 </head>
 <body>
+  <!-- Loading Indicator -->
+  <div id="loading_container" class="container">
+    <img src="./assets/images/loading.gif" alt="loading indicator" class="indicator">
+  </div>
+
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -98,6 +119,18 @@
     } else {
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
+    }
+  </script>
+
+  <!-- Removes the loading indicator after 10 seconds -->
+  <script>
+    window.onload = function () {
+      setTimeout(function () {
+        var loadingIndicator = document.getElementById("loading_container");
+        if (loadingIndicator) {
+          loadingIndicator.remove();
+        }
+      }, 10000)
     }
   </script>
 </body>
