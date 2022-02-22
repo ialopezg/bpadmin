@@ -20,11 +20,12 @@
 ![Windows](https://img.shields.io/badge/Windows-black?&style=flat&logo=windows&logoColor=blue)
 ![iOS](https://img.shields.io/badge/iOS-black?&style=flat&logo=apple)
 ![Android](https://img.shields.io/badge/Android-black?logo=android&style=flat&logoColor=green)
-![Web](https://img.shields.io/badge/Web-red?logo=web&style=for-the-badge&logoColor=white)
+![Web](https://img.shields.io/badge/Web-black?logo=w3c&style=flat&logoColor=red)
 
 ### Tools
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
 ![IntelliJ](https://img.shields.io/badge/-IntelliJ%20IDEA-black?style=flat-square&logo=jetbrains)
+![Android Studio](https://img.shields.io/badge/Android_Studio-black?logo=android&style=flat&logoColor=green)
 ![Postman](https://img.shields.io/badge/Postman-black?style=flat-square&logo=postman)
 ![Terminal](https://badgen.net/badge/icon/terminal?icon=terminal&label)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
@@ -52,9 +53,12 @@ See our Administrator [Live Demo](https://ialopezg.github.io/administrator/).
 
 ## Screenshots ✨
 
-![Dashboard](assets/screenshots/desktop.png "Desktop")
-![Tablet](assets/screenshots/tablet.png "Tablet")
-![Mobile](assets/screenshots/mobile.png "Mobile")
+<img src="assets/screenshots/desktop.png" alt="Desktop View"
+	title="A cute kitten" height="200" />
+<img src="assets/screenshots/tablet.png" alt="Tablet View"
+	title="A cute kitten" height="200" />
+<img src="assets/screenshots/mobile.png" alt="Kitten"
+	title="A cute kitten" width="95" />
 
 ## Contributors ✨
 
