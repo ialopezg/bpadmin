@@ -10,6 +10,8 @@ import 'helpers/app_constants.dart';
 import 'ui/layouts/main_layout.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   configureApp();
 
   runApp(const MyApp());
