@@ -2,6 +2,8 @@
 
 > A Flutter Boilerplate App to Manage and Control all [Boilerplate Business Logic](https://github.com/ialopezg/boilerplate).
 
+See our Administrator Demo [here](https://abuanwar072.github.io/Flutter-Responsive-Admin-Panel-or-Dashboard/#/)
+
 ## Packages used
 
 - [provider](https://pub.dev/packages/provider). A wrapper around `InheritedWidget` to make them easier to use and more reusable.
