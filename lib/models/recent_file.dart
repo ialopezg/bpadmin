@@ -17,19 +17,19 @@ List recentFiles = [
     'XD File',
     icon: 'assets/icons/xd_file.svg',
     date: '01-03-2021',
-    size: '3.5MB',
+    size: '3.5 MB',
   ),
   RecentFile(
     'Figma File',
     icon: 'assets/icons/figma_file.svg',
     date: '27-02-2021',
-    size: '19.0MB',
+    size: '19.0 MB',
   ),
   RecentFile(
     'Document File',
     icon: 'assets/icons/doc_file.svg',
     date: '23-02-2021',
-    size: '32.5MB',
+    size: '32.5 MB',
   ),
   RecentFile(
     'Sound File',

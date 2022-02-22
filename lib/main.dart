@@ -1,5 +1,8 @@
+import 'package:administrator/controllers/menu_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+import 'package:provider/single_child_widget.dart';
 
 import 'helpers/app_configure.dart'
     if (dart.library.html) 'helpers/app_configure_web.dart';
@@ -26,7 +29,11 @@ class MyApp extends StatelessWidget {
             .apply(bodyColor: Colors.white),
         canvasColor: secondaryColor,
       ),
-      home: const MainLayout(),
+      home: MultiProvider(providers: <SingleChildWidget>[
+        ChangeNotifierProvider(
+          create: (BuildContext context) => MenuController(),
+        ),
+      ], child: const MainLayout()),
     );
   }
 }

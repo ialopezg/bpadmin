@@ -21,6 +21,7 @@ dependencies:
   # Images
   flutter_svg: ^1.0.3
   fl_chart: ^0.45.0
+  provider: ^6.0.2
 
 dev_dependencies:
   flutter_test:

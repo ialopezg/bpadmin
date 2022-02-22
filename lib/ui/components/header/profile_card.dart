@@ -1,4 +1,5 @@
 import 'package:administrator/helpers/app_constants.dart';
+import 'package:administrator/helpers/responsive.dart';
 import 'package:flutter/material.dart';
 
 class ProfileCard extends StatelessWidget {
@@ -19,10 +20,11 @@ class ProfileCard extends StatelessWidget {
         child: Row(
           children: [
             Image.asset('assets/images/profile.png', height: 38),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: defaultPadding / 2),
-              child: Text('John Doe'),
-            ),
+            if (!Responsive.isMobile(context))
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: defaultPadding / 2),
+                child: Text('John Doe'),
+              ),
             const Icon(Icons.keyboard_arrow_down),
           ],
         ),
