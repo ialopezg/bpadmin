@@ -31,7 +31,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ialopezg"><img src="https://avatars.githubusercontent.com/u/6828828?s=100&v=4" width="100px;" alt="Isidro A. López G."/><br /><sub><b>Isidro A. López G.</b></sub></a><br /><a href="https://github.com/signal-owl/soiot-admin/issues?q=author%3Aialopezg" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/ialopezg"><img src="https://avatars.githubusercontent.com/u/6828828?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isidro A. López G.</b></sub></a><br /><a href="#maintenance-RounakTadvi" title="Maintenance">🚧</a> <a href="https://github.com/abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard/commits?author=RounakTadvi" title="Code">💻</a></td>
   </tr>
 </table>
 

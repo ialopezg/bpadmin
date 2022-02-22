@@ -23,7 +23,7 @@ class MyFiles extends StatelessWidget {
                 padding: EdgeInsets.symmetric(
                   horizontal: defaultPadding * 1.5,
                   vertical:
-                  defaultPadding / (Responsive.isMobile(context) ? 2 : 1),
+                      defaultPadding / (Responsive.isMobile(context) ? 2 : 1),
                 ),
               ),
               onPressed: () {},
@@ -36,7 +36,7 @@ class MyFiles extends StatelessWidget {
         Responsive(
           mobile: LocationGridView(
             crossAxisCount: _size.width < 650 ? 2 : 4,
-            childAspectRatio: _size.width < 650 ? 1.3 : 1,
+            childAspectRatio: _size.width < 650 && _size.width > 350 ? 1.3 : 1,
           ),
           tablet: const LocationGridView(),
           desktop: LocationGridView(
